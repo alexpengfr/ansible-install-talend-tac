@@ -4,5 +4,7 @@
  
   tasks:
  
-  - name: Hello World!
-    shell: echo "Hi! Tower is working."
+ - name: Creates directory
+  file:
+    path: /tmp/test_ansible
+    state: directory
