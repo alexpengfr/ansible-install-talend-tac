@@ -1,4 +1,4 @@
 - name: Creates directory
   file:
-    path: /src/www
+    path: /tmp/test_ansible
     state: directory
