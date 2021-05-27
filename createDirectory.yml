@@ -1,5 +1,5 @@
 ---
-- name: Creates directory
+- name: Createss directory
   file:
     path: /tmp/test_ansible
     state: directory
