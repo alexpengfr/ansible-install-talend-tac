@@ -1,3 +1,4 @@
+---
 - name: Creates directory
   file:
     path: /tmp/test_ansible
