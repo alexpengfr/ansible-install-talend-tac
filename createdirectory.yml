@@ -3,8 +3,7 @@
   hosts: all
  
   tasks:
- 
- - name: Creates directory
-  file:
+   - name: Creates directory
+    file:
     path: /tmp/test_ansible
     state: directory
